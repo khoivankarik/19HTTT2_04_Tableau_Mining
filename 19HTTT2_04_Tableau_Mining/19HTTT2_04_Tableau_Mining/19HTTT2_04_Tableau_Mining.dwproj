@@ -6,10 +6,43 @@
     <Name>19HTTT2_04_Tableau_Mining.database</Name>
     <FullPath>19HTTT2_04_Tableau_Mining.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>Adventure Works DW2019.ds</Name>
+      <FullPath>Adventure Works DW2019.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Adventure Works DW2019.dsv</Name>
+      <FullPath>Adventure Works DW2019.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <MiningModels>
+    <ProjectItem>
+      <Name>v Target Mail.dmm</Name>
+      <FullPath>v Target Mail.dmm</FullPath>
+    </ProjectItem>
+  </MiningModels>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2019</Id>
+            <Name>Adventure Works DW2019</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=AdventureWorksDW2019</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2019</Id>
+            <Name>Adventure Works DW2019</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
