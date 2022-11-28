@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Adventure Works DW2019 (19HTTT2_04_Tableau_Mining)' inline='true' name='msolap.0a6s9ar14hi6fa19bgq3t1janspp' version='18.1'>
+      <connection authentication='sspi' class='msolap' convert-to-extract-prompted='no' dbname='19HTTT2_04_Tableau_Mining' filename='' server='localhost' tablename='Adventure Works DW2019'>
+        <metadata-records>
+          <metadata-record class='dimension'>
+            <remote-name>[Measures]</remote-name>
+            <remote-type>1</remote-type>
+            <local-name>[Measures]</local-name>
+            <remote-alias>[Measures]</remote-alias>
+            <caption>Measures</caption>
+            <local-type>real</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>8</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[Measures]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[v Target Mail]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[v Target Mail]</local-name>
+            <remote-alias>[v Target Mail]</remote-alias>
+            <caption>v Target Mail</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>18485</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[v Target Mail].[Customer Key]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[Geography Key]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Geography Key]</local-name>
+            <remote-alias>[Measures].[Geography Key]</remote-alias>
+            <caption>Geography Key</caption>
+            <family>v Target Mail</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[v Target Mail].[Geography Key]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[Yearly Income]</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Yearly Income]</local-name>
+            <remote-alias>[Measures].[Yearly Income]</remote-alias>
+            <caption>Yearly Income</caption>
+            <family>v Target Mail</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[v Target Mail].[Yearly Income]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[Total Children]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Children]</local-name>
+            <remote-alias>[Measures].[Total Children]</remote-alias>
+            <caption>Total Children</caption>
+            <family>v Target Mail</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[v Target Mail].[Total Children]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[Number Children At Home]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number Children At Home]</local-name>
+            <remote-alias>[Measures].[Number Children At Home]</remote-alias>
+            <caption>Number Children At Home</caption>
+            <family>v Target Mail</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[v Target Mail].[Number Children At Home]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[Number Cars Owned]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number Cars Owned]</local-name>
+            <remote-alias>[Measures].[Number Cars Owned]</remote-alias>
+            <caption>Number Cars Owned</caption>
+            <family>v Target Mail</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[v Target Mail].[Number Cars Owned]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[Age]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <remote-alias>[Measures].[Age]</remote-alias>
+            <caption>Age</caption>
+            <family>v Target Mail</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[v Target Mail].[Age]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[Bike Buyer]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bike Buyer]</local-name>
+            <remote-alias>[Measures].[Bike Buyer]</remote-alias>
+            <caption>Bike Buyer</caption>
+            <family>v Target Mail</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[v Target Mail].[Bike Buyer]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[v Target Mail Count]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[v Target Mail Count]</local-name>
+            <remote-alias>[Measures].[v Target Mail Count]</remote-alias>
+            <caption>v Target Mail Count</caption>
+            <family>v Target Mail</family>
+            <local-type>integer</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[v Target Mail].[v Target Mail Count]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[v Target Mail].[Customer Key]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[v Target Mail].[Customer Key]</local-name>
+            <parent-name>[v Target Mail]</parent-name>
+            <remote-alias>[v Target Mail].[Customer Key]</remote-alias>
+            <caption>Customer Key</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>18485</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[v Target Mail].[Customer Key].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[v Target Mail].[Customer Key].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[v Target Mail].[Customer Key].[(All)]</local-name>
+            <parent-name>[v Target Mail].[Customer Key]</parent-name>
+            <remote-alias>[v Target Mail].[Customer Key].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[v Target Mail].[Customer Key].[Customer Key]</remote-name>
+            <local-name>[v Target Mail].[Customer Key].[Customer Key]</local-name>
+            <parent-name>[v Target Mail].[Customer Key]</parent-name>
+            <remote-alias>[v Target Mail].[Customer Key].[Customer Key].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>Customer Key</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>18485</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$v Target Mail].[Customer Key] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>v Target Mail</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>v Target Mail</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[v Target Mail].[Customer Key]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[v Target Mail]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Adventure Works DW2019 (19HTTT2_04_Tableau_Mining)' name='msolap.0a6s9ar14hi6fa19bgq3t1janspp' />
+          </datasources>
+          <datasource-dependencies datasource='msolap.0a6s9ar14hi6fa19bgq3t1janspp'>
+            <column-instance column='[Age]' derivation='None' name='[none:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Bike Buyer]' derivation='None' name='[none:Bike Buyer:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number Children At Home]' derivation='None' name='[none:Number Children At Home:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Yearly Income]' derivation='None' name='[none:Yearly Income:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[v Target Mail].[Customer Key].[Customer Key]' derivation='None' name='[v Target Mail].[Customer Key].[none:Customer Key:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[none:Age:qk]' included-values='in-range'>
+            <min>20</min>
+            <max>80</max>
+          </filter>
+          <filter class='quantitative' column='[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[none:Bike Buyer:qk]' included-values='in-range' />
+          <filter class='categorical' column='[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[v Target Mail].[Customer Key]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-level='0' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11020]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11019]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11018]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11017]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11016]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11015]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11014]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11013]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11012]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11011]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11010]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11009]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11008]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11007]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11006]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11005]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11004]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11003]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11002]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11001]&quot;' />
+              <groupfilter function='member' level='[v Target Mail].[Customer Key].[Customer Key]' member='&quot;[v Target Mail].[Customer Key].&amp;[11000]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[v Target Mail].[Customer Key]</column>
+            <column>[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[none:Age:qk]</column>
+            <column>[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[none:Bike Buyer:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <lod column='[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[v Target Mail].[Customer Key].[none:Customer Key:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[none:Age:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <lod column='[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[v Target Mail].[Customer Key].[none:Customer Key:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[none:Number Children At Home:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <lod column='[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[v Target Mail].[Customer Key].[none:Customer Key:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[none:Yearly Income:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <lod column='[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[v Target Mail].[Customer Key].[none:Customer Key:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([msolap.0a6s9ar14hi6fa19bgq3t1janspp].[none:Age:qk] + ([msolap.0a6s9ar14hi6fa19bgq3t1janspp].[none:Number Children At Home:qk] + [msolap.0a6s9ar14hi6fa19bgq3t1janspp].[none:Yearly Income:qk]))</rows>
+        <cols>[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[v Target Mail].[Customer Key].[none:Customer Key:nk]</cols>
+      </table>
+      <simple-id uuid='{F1912871-6A13-460E-BFFA-005D14326E1B}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[none:Bike Buyer:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[none:Age:qk]</field>
+            <field>[msolap.0a6s9ar14hi6fa19bgq3t1janspp].[v Target Mail].[Customer Key].[none:Customer Key:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4FBEFE8B-292F-4049-AEAD-E3E2D2BE3CBF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      9jT/H28Aff7BsW/yAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

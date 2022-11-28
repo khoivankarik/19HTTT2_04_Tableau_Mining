@@ -6,6 +6,24 @@
     <Name>19HTTT2_04_Tableau_Mining.database</Name>
     <FullPath>19HTTT2_04_Tableau_Mining.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Adventure Works DW2019.cube</Name>
+      <FullPath>Adventure Works DW2019.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Adventure Works DW2019.partitions</Name>
+          <FullPath>Adventure Works DW2019.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>v Target Mail.dim</Name>
+      <FullPath>v Target Mail.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>Adventure Works DW2019.ds</Name>
