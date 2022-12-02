@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b763f4df-f317-40f5-b543-d38534df0c01" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="17c420e9-acea-47b9-a42b-20a9f1b1e8b3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Adventure Works DW2019</ID>
   <Name>Adventure Works DW2019</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,32 +6,6 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
-      <Value>
-        <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7187" scrolltop="-3141" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18711" y="11282" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
-            <font>
-              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
-            </font>
-            <mouseicon>
-              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
-            </mouseicon>
-          </diagram>
-          <layoutmanager>
-            <ddsxmlobj />
-          </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vTargetMail" left="-107" top="106" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4297" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000c910000088130000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dbo_vTargetMail" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-        </dds>
-      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -47,19 +21,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-7187</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-3141</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>-107</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>106</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -69,19 +43,19 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="7a963b49-92ac-4f27-9da9-c26330911596">
+    <Dimension dwd:design-time-name="ed625b95-b4ec-4e2c-a8d5-cb700593a0a7">
       <ID>v Target Mail</ID>
       <Name>v Target Mail</Name>
       <DimensionID>v Target Mail</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="710cf0a6-c685-455c-a6df-c1a64f7898fe">
+        <Attribute dwd:design-time-name="6574841c-4e6a-43fa-ba0e-c4a7d00a465b">
           <AttributeID>Customer Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="a43c880e-7fff-4775-ad69-53326b568ae9">
+    <MeasureGroup dwd:design-time-name="72920694-3321-4f3b-9720-5f302ea03fc7">
       <ID>v Target Mail</ID>
       <Name>v Target Mail</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -89,91 +63,91 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="f9e5b3b8-ebe9-475b-a4d9-78830557cc5f">
+        <Measure dwd:design-time-name="c1252e61-ca65-4923-962e-3dc9b50794da">
           <ID>Geography Key</ID>
           <Name>Geography Key</Name>
-          <Source dwd:design-time-name="4f19138d-5fbf-4f32-b1b3-24b179426053">
+          <Source dwd:design-time-name="affaf284-f3b9-49fb-ad69-d0011db6429a">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="6f982a71-8991-4b65-a188-77b84b888abf">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4f447c1e-26bd-4997-8aef-88ac5267556a">
               <TableID>dbo_vTargetMail</TableID>
               <ColumnID>GeographyKey</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="09ff3e33-75fa-4be3-99fd-dd521c5cce80">
+        <Measure dwd:design-time-name="c3bb8811-6529-4a7c-b346-e6a595a7997e">
           <ID>Yearly Income</ID>
           <Name>Yearly Income</Name>
-          <Source dwd:design-time-name="a577b753-f437-4ec7-9ca8-fc04c0ab4bee">
+          <Source dwd:design-time-name="589dfbcc-9b1b-40a8-a5d9-1ab72f28167a">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="9b420d7e-334c-40b9-8c92-cb243056724b">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3402cdbe-cf30-4dd2-acac-178603474c44">
               <TableID>dbo_vTargetMail</TableID>
               <ColumnID>YearlyIncome</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="9b05c694-edaa-4bdf-8ff1-2c575129830f">
+        <Measure dwd:design-time-name="ff18cf41-9271-4f1a-913c-cb97b4d1becf">
           <ID>Total Children</ID>
           <Name>Total Children</Name>
-          <Source dwd:design-time-name="47df560a-e98c-4b41-93cd-1876c7c61faf">
+          <Source dwd:design-time-name="b5bf904c-67d1-4f88-8ef3-0314e1415e83">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="da098aee-dd06-4edd-95d1-05ec6a70652b">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d480dbae-298a-40d7-bea4-47fe343a2f61">
               <TableID>dbo_vTargetMail</TableID>
               <ColumnID>TotalChildren</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="be494bc3-e276-4a25-ab0a-8629b485ee53">
+        <Measure dwd:design-time-name="a171e0f1-9302-4e99-9a0a-4d10cff5b777">
           <ID>Number Children At Home</ID>
           <Name>Number Children At Home</Name>
-          <Source dwd:design-time-name="6a0d1a16-121d-4cfc-a7c9-63e2aa6bf39a">
+          <Source dwd:design-time-name="b97489e6-92c3-4604-9804-b8c16edf4a59">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c1de32ad-205f-4047-ae3e-c58e88ff60bb">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="16e298fb-07a2-4efa-bf23-3e41ca2ee7fc">
               <TableID>dbo_vTargetMail</TableID>
               <ColumnID>NumberChildrenAtHome</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="e9387994-3213-4da5-a3d6-0d7dbd875d4b">
+        <Measure dwd:design-time-name="fe43bdd7-fce9-4488-a5e6-c483b9e4fa2c">
           <ID>Number Cars Owned</ID>
           <Name>Number Cars Owned</Name>
-          <Source dwd:design-time-name="1581a915-9d5e-47cc-9eb0-d3e7789d892b">
+          <Source dwd:design-time-name="a186e889-4653-441b-9d86-04b46136d506">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a9ab0541-4797-45e3-9a42-d2e9f544d2ea">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="452db466-7004-45e5-9e3f-a3ca42032e99">
               <TableID>dbo_vTargetMail</TableID>
               <ColumnID>NumberCarsOwned</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="08604786-d6df-44b7-bf99-f90c8664a846">
+        <Measure dwd:design-time-name="6203a51c-7a41-4c08-9c60-bfffd8295255">
           <ID>Age</ID>
           <Name>Age</Name>
-          <Source dwd:design-time-name="ad1cc62d-77e1-4168-bedc-33deb0506399">
+          <Source dwd:design-time-name="a0c7f273-31a8-4264-9c7b-ca2850a5e70d">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="902405cf-cdc3-40ad-b353-fbf9175c5ff1">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a8cc1275-5d70-49ce-aaf7-880ba5f1e5e0">
               <TableID>dbo_vTargetMail</TableID>
               <ColumnID>Age</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="bb3e10c2-04ba-44ea-8960-a1e7d515f45d">
+        <Measure dwd:design-time-name="518191f4-bd91-45b9-b08a-4644508c7512">
           <ID>Bike Buyer</ID>
           <Name>Bike Buyer</Name>
-          <Source dwd:design-time-name="2bcccfe5-97d1-4fac-9186-62336af181f9">
+          <Source dwd:design-time-name="a22be381-aadc-488c-bb63-50ff728833a4">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="b156eaa1-a28c-428d-8957-d8a96944af76">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="255dd065-4fd8-401d-b34a-0db3a2ce6b84">
               <TableID>dbo_vTargetMail</TableID>
               <ColumnID>BikeBuyer</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="6b4019e5-953d-4dbc-8a95-07249a29eb37">
+        <Measure dwd:design-time-name="9bfc4efd-812d-4297-bfce-42be2b31f831">
           <ID>v Target Mail Count</ID>
           <Name>v Target Mail Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="41eb1d80-f261-4a62-9a2e-28f1bf83589b">
+          <Source dwd:design-time-name="d2846f65-b5af-421f-9e06-6ddb265d60de">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="c785d428-6087-4a26-bc23-2fe114632205">
+            <Source xsi:type="RowBinding" dwd:design-time-name="17b2cf43-cdfc-4c4b-b1d4-b17e3785388c">
               <TableID>dbo_vTargetMail</TableID>
             </Source>
           </Source>
@@ -182,15 +156,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="d3c14ee1-c3e3-43e4-8da0-6026f88d684f">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="9f6437b4-39af-433c-9fa9-86f7dcf48075">
           <CubeDimensionID>v Target Mail</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="0b33e01c-14c5-42e8-8f9c-bcc192651193">
+            <Attribute dwd:design-time-name="6b4e656e-6e8a-430f-9873-7839745ef316">
               <AttributeID>Customer Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="c92fbf17-5e85-48d6-af1e-0243286d3dff">
+                <KeyColumn dwd:design-time-name="32cb5e8f-24c7-454b-abea-126438a238eb">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c757efa7-6fcc-49a7-8c61-575833230937">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="13f25f38-cb8a-4933-b63c-3bef12e3e921">
                     <TableID>dbo_vTargetMail</TableID>
                     <ColumnID>CustomerKey</ColumnID>
                   </Source>
@@ -204,7 +178,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="e75ba669-2dd1-4d26-991e-3b91b49578bf">
+  <Source dwd:design-time-name="963b11f7-ece4-41f5-9ae9-ddfb22b0e30c">
     <DataSourceViewID>Adventure Works DW2019</DataSourceViewID>
   </Source>
 </Cube>
